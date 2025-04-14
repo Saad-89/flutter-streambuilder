@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "564802478249",
+    "project_id": "stream-future-builder",
+    "storage_bucket": "stream-future-builder.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564802478249:android:bf9934bf2db385c86849b8",
+        "android_client_info": {
+          "package_name": "com.example.stream_builder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5kTo51LUbubCppyFO-RwamdhkC1pFJvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

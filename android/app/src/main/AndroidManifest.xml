@@ -1,4 +1,5 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.stream_builder">
     <application
         android:label="stream_builder"
         android:name="${applicationName}"
