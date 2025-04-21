@@ -1,16 +1,21 @@
-# stream_builder
+# ⏳ Flutter Async Builders: FutureBuilder & StreamBuilder
 
-A new Flutter project.
+This repository demonstrates how to work with two essential widgets in Flutter: `FutureBuilder` and `StreamBuilder`. These widgets allow developers to handle asynchronous data and build responsive, dynamic UIs with ease.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📘 What Are FutureBuilder & StreamBuilder?
 
-A few resources to get you started if this is your first Flutter project:
+Flutter provides two powerful builder widgets to work with asynchronous data:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔮 `FutureBuilder`
+- Used when you want to handle a **single asynchronous operation**.
+- Typically used for API calls, database queries, or reading local files.
+- Waits for a `Future` to complete and then builds the widget based on the result.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔁 `StreamBuilder`
+- Used when you need to handle a **continuous stream of data**.
+- Commonly used with Firebase streams, WebSockets, or periodic updates.
+- Listens to a `Stream` and rebuilds the widget every time a new value is emitted.
+
+---
